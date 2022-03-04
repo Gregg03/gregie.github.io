@@ -1,0 +1,438 @@
+/*------------------------------------------------------------------------------
+WEB : page design
+------------------------------------------------------------------------------*/
+
+
+
+/*==============================
+Layout
+==============================*/
+
+/* Body & Wrapper */
+/* .wrapper {
+min-height: 100vh;
+max-width: 1200px;
+margin: 0 auto 0 auto;
+padding: 1px;
+}
+.wrapper {
+background-color: #F6F6F6;
+padding: 0 10px;
+} */
+header{
+	background-color: #1f2532;
+}
+p{
+	font-size: 0.9vw;
+}
+h1{
+
+}
+h2{
+	font-size: 0.9vw;
+
+}
+h3{
+	font-size: 0.9vw;
+
+}
+span.RT{
+	color: #FFFFFF99;
+}
+.sms{
+	padding-bottom: 4vw;
+}
+
+/*==============================
+Style
+==============================*/
+
+/* Set font */
+* {
+	font-family: 'Ubuntu', 'Arial', 'Helvetica', 'Palatino', sans-serif;
+}
+
+/* Body & Wrapper */
+body {
+	background-color: #FFFFFF;
+	/* padding: 0 10vw; */
+}
+header{
+	padding: 0 20vw;
+	height: 80vh;
+}
+/* header */
+img.icon{
+	width: 2vw;
+	display: inline-block;
+	/* position: sticky; */
+	top: 0;
+	margin-top: 1vw;
+}
+h2.title{
+	color: #FFFFFF;
+	display: inline-block;
+	vertical-align: middle;
+	/* background-color: red; */
+	/* position: sticky; */
+	top: 0;
+	font-size: 1.5vw;
+
+}
+header nav ul li {
+	color: #FFFFFF;
+	/* background-color: red; */
+	padding: 0 1vw;
+	display: inline-block;
+	font-size: 0.9vw;
+}
+header nav{
+	display: inline-block;
+padding-left: 15vw;
+/* position: sticky; */
+top: 0;
+}
+img.seul{
+/* background-color: green; */
+display: inline-block;
+width: 26vw;
+padding-top: 10vh;
+width: 20vw;
+}
+.firstpage{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5vw;
+	padding-top: 10vh;
+	width: 20vw;
+}
+header h1{
+	color: #FFFFFF;
+	/* background-color: red; */
+	font-size: 2vw;
+
+
+}
+header p{
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 0.9vw;
+}
+
+
+/* section */
+
+.secpage{
+	background-color: #00000011;
+	padding: 0 20vw;
+	height: 20vh;
+}
+article.secpage{
+height: 30vh;
+}
+section h1{
+	display: inline-block;
+	/* background-color: red; */
+	font-size: 1.7vw;
+	width: 20vw;
+}
+.secpage p {
+	display: inline-block;
+	/* background-color: orange; */
+	padding-left: 5vw;
+	width: 20vw;
+vertical-align: middle;
+color: #00000077;
+font-size: 0.9vw;
+}
+
+/* troisième page */
+
+.thirdpage{
+	padding: 0 20vw;
+	background-color: #FFFFFF;
+}
+.thirdpage h1{
+	font-size: 30px;
+	display: block;
+}
+
+
+section div{
+	display: inline-block;
+}
+div img{
+	/* background-color: grey; */
+	width: 2vw;
+}
+section h3{
+	/* background-color: blue; */
+	text-align: center;
+	font-size: 2vw;
+}
+div p {
+	/* background-color: pink; */
+	text-align: center;
+	font-size: 0.9vw;
+}
+div{
+	padding-left: 4vw;
+	padding-bottom: 20vh;
+}
+div img.quatre{
+width: 15vw;
+/* background-color: grey; */
+}
+div h2{
+	display: inline-block;
+	vertical-align: top;
+	/* background-color: red; */
+	margin-left: 5vw;
+	/* padding-right: 20vw; */
+	/* padding-right: 15vw */
+	/* font-size: 35px; */
+	font-size: 1.8vw;
+}
+div p{
+	display: inline-block;
+	vertical-align: top;
+/* background-color: orange; */
+width: 15vw;
+ color: #00000055;
+ padding-left: 2vw;
+ font-size: 0.9vw;
+
+}
+div.qutre{
+	padding-bottom: 10vh;
+}
+div img.cinq{
+	width: 15vw;
+	/* background-color: grey; */
+}
+div.petit{
+	padding-left: 2vw;
+}
+.image{
+	width: 20vw;
+	display: inline-block;
+	vertical-align: top;
+}
+.taille{
+	padding-bottom: 5vw;
+}
+
+
+
+
+
+
+/* Quatrieme page */
+
+.fourpage{
+	background-color: #00000011;
+	padding: 0 20vw;
+}
+div.fourpage{
+	/* padding: 5vh 0; */
+	display: inline-block;
+	/* background-color: red; */
+}
+div ul{
+	list-style: none;
+	text-align: center;
+	padding: 1vw ;
+
+}
+div ul li{
+	text-align: center; */
+	/* padding: 0 0 10vw 0; */
+
+	/* box-sizing: 200vw 300vh; */
+	font-size: 0.9vw;
+}
+
+.fourpage ul {
+	margin:  0 2vw;
+	padding: 0;
+	/* background-color: green; */
+}
+.fourpage ul li {
+	margin: 0 1px;
+	padding: 0 2vw 2vw 0;
+	font-size: 0.9vw;
+
+	/* background-color: green; */
+
+}
+
+div.un{
+	/* background-color: grey; */
+	/* border-style: solid; */
+	/* border-color: red; */
+	padding-top: 15vh;
+	text-align: center;
+	padding: 0;
+	height: 20vw;
+	box-sizing: border-box;
+}
+div.deux{
+	/* border-style: solid; */
+	padding-top: 15vh;
+	/* background-color: orange; */
+	/* border-color: red; */
+	text-align: center;
+	padding: 0;
+	height: 20vw;
+	box-sizing: border-box;
+}
+div.trois{
+	/* border-style: solid; */
+	padding-top: 15vh;
+	/* background-color: green; */
+	/* border-color: red; */
+	text-align: center;
+	padding: 0;
+	height: 20vw;
+	box-sizing: border-box;
+}
+/* div input.un{
+	margin-left: 8.5vw;
+} */
+.fourpage h1{
+	display: block;
+	padding-bottom: 7vw;
+}
+.balise{
+	padding: 0 auto 0 auto;
+}
+
+
+
+
+
+/* Cinquième page */
+.fivepage{
+	background-color: #f0326b;
+}
+div.fivepage{
+	display: inline-block;
+}
+.temoin{
+	width: 5vw;
+	margin: 0 20vw;
+}
+div h4{
+	font-size: 1.2vw;
+	/* background-color: red; */
+}
+.fivepage h2{
+	margin: 0 20vw;
+	font-size: 2vw;
+	padding-top: 2vw;
+
+}
+.fivepage p{
+	font-size: 0.9vw;
+
+}
+.fivepage p::before{
+	content: "\"";
+	font-size: 3vw;
+	color: #00000077;
+
+}
+.fivepage p::after{
+	content: ",,";
+	font-size: 2vw;
+	color: #00000077;
+
+}
+/* aside */
+aside input{
+	display: block;
+	margin: 2vw auto;
+
+}
+ul li.spe{
+	font-size: 1.8vw;
+}
+span{
+	/* font-size: 0.9vw */
+	color: red;
+}
+aside h2{
+padding-left: 26vw;
+font-size: 3vw;
+/* background-color: red; */
+text-align: left;
+}
+aside{
+	background-color: #FFFFFF;
+	padding: 0 20vw;
+}
+
+
+
+
+/* footer */
+footer{
+	background-color: #00000095;
+	padding: 0 20vw;
+}
+
+footer article{
+	display: inline-block;
+	/* background-color: red; */
+	margin-left: 5vw;
+	/* padding-left: 15vw; */
+
+}
+footer ul{
+	list-style: none;
+	margin: 1vw 1vw;
+	font-size: 0.9vw;
+	padding-bottom: 1vw;
+}
+footer ul li{
+	padding-bottom: 1vw;
+
+}
+footer h3{
+	margin: 0.5vw 1vw;
+	font-size: 1.2vw;
+
+}
+/*==============================
+Classes
+==============================*/
+
+
+
+
+
+/*==============================
+Responsive design
+==============================*/
+
+/* Media query : mobile */
+@media (max-width: 600px) {
+
+
+}
+
+
+
+/* Media query : tablet */
+@media (min-width: 600px) and (max-width: 1200px) {
+
+
+}
+
+
+
+/* Media query : laptop */
+@media (min-width: 1200px) {
+
+
+}
